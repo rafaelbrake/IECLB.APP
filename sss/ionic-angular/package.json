@@ -1,0 +1,64 @@
+{
+  "name": "ionic-angular",
+  "version": "2.0.0-beta.4",
+  "description": "An advanced HTML5 mobile app framework built on Angular2",
+  "license": "MIT",
+  "keywords": [
+    "ionic",
+    "framework",
+    "mobile",
+    "app",
+    "hybrid",
+    "webapp",
+    "cordova"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/ionic.git#2.0`"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "0.11.0",
+    "lodash": "3.10.1",
+    "mkdirp-no-bin": "0.5.1",
+    "q": "1.4.1"
+  },
+  "peerDependencies": {
+    "angular2": "^2.0.0-beta.13"
+  },
+  "bugs": {
+    "url": "https://github.com/driftyco/ionic/issues"
+  },
+  "homepage": "https://github.com/driftyco/ionic/tree/2.0%60#readme",
+  "_id": "ionic-angular@2.0.0-beta.4",
+  "scripts": {},
+  "_shasum": "7298b1a59c85d3826a0368b76b0ae4dac84cce22",
+  "_from": "ionic-angular@2.0.0-beta.4",
+  "_resolved": "https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.4.tgz",
+  "_npmVersion": "3.8.5",
+  "_nodeVersion": "4.4.2",
+  "_npmUser": {
+    "name": "brandyscarney",
+    "email": "brandy@ionic.io"
+  },
+  "dist": {
+    "shasum": "7298b1a59c85d3826a0368b76b0ae4dac84cce22",
+    "tarball": "https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "brandyscarney",
+      "email": "brandy@ionic.io"
+    },
+    {
+      "name": "tlancina",
+      "email": "tim@ionic.io"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ionic-angular-2.0.0-beta.4.tgz_1460053873916_0.26344832219183445"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

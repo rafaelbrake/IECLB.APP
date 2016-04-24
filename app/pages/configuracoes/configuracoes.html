@@ -1,0 +1,20 @@
+
+<ion-navbar *navbar light>
+  <ion-title>
+    Configurações
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="configuracoes">
+  <ion-list>
+    <ion-item>
+      <ion-icon name="home" item-left></ion-icon>
+      <ion-label>Igreja</ion-label>
+      <ion-select [(ngModel)]="igreja">
+        <ion-option value="paz">Paróquia da Paz</ion-option>
+        <ion-option value="martin">Martin Luther</ion-option>
+        <ion-option value="apostolo">Apóstolo</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>

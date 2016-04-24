@@ -1,0 +1,142 @@
+
+<ion-navbar *navbar light>
+  <ion-title>
+    Agenda
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="agenda">
+  <div padding>
+    <ion-segment [(ngModel)]="mes">
+      <ion-segment-button value="Abril" >
+        Abril
+      </ion-segment-button>
+      <ion-segment-button value="Maio">
+        Maio
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="mes">
+    <ion-list no-border *ngSwitchWhen="'Abril'">
+
+      <ion-list-header>
+        Cultos
+      </ion-list-header>
+
+      <ion-item>
+        <ion-icon item-left>03</ion-icon>
+        Culto
+        <ion-note item-right>
+        08:30
+        </ion-note>
+      </ion-item>
+
+      <ion-item>
+        <ion-note item-right>
+        08:30
+        </ion-note>
+        <ion-label>
+          Culto com confirmandos
+        </ion-label>
+        <ion-icon item-left>10</ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon item-left>17</ion-icon>
+        Culto com Santa Ceia
+        <ion-note item-right>
+        08:30
+        </ion-note>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon item-left>24</ion-icon>
+        Culto com Santa Ceia
+        <ion-note item-right>
+        10:00
+        </ion-note>
+      </ion-item>
+
+
+
+    </ion-list>
+
+    <ion-list no-border *ngSwitchWhen="'Maio'">
+
+      <ion-list-header>
+        Cultos
+      </ion-list-header>
+
+      <ion-item>
+        <ion-icon item-left>01</ion-icon>
+        Culto com confirmandos
+        <ion-note item-right>
+        08:30
+        </ion-note>
+      </ion-item>
+
+      <ion-item>
+        <ion-note item-right>
+        08:30
+        </ion-note>
+        <ion-label>
+          Culto
+        </ion-label>
+        <ion-icon item-left>08</ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon item-left>15</ion-icon>
+        Culto com Santa Ceia
+        <ion-note item-right>
+        08:30
+        </ion-note>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon item-left>22</ion-icon>
+        Culto
+        <ion-note item-right>
+        10:00
+        </ion-note>
+      </ion-item>
+
+
+
+    </ion-list>
+  </div>
+
+
+  <ion-list>
+
+    <ion-list-header>
+      Atividades Especiais
+    </ion-list-header>
+
+    <ion-item>
+      Grupo vocal
+      <ion-icon item-left style="min-width: 80px;">Segunda</ion-icon>
+        <ion-note item-right>19:00</ion-note>
+    </ion-item>
+
+    <ion-item>
+      Coral da paz
+      <ion-icon item-left style="min-width: 80px;">Terça</ion-icon>
+        <ion-note item-right>19:00</ion-note>
+    </ion-item>
+
+    <ion-item>
+      OASE
+      <ion-icon item-left style="min-width: 80px;">Quarta</ion-icon>
+        <ion-note item-right>19:00</ion-note>
+    </ion-item>
+
+
+
+
+
+
+
+  </ion-list>
+</ion-content>
